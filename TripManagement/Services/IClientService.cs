@@ -2,5 +2,5 @@
 
 public interface IClientService
 {
-    
+    Task<bool> DeleteClientAsync(int idClient);
 }
